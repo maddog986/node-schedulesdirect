@@ -1,5 +1,9 @@
 const SchedulesDirect = require('../schedulesdirect.js');
 
+if (!process.env.USERNAME || !process.env.PASSWORD) {
+  throw new Error('SETUP YOUR ENVIRONMENT VARIABLES');
+}
+
 const sdClient = new SchedulesDirect({
   username: process.env.USERNAME,
   password: process.env.PASSWORD
@@ -10,7 +14,7 @@ const sdClient = new SchedulesDirect({
 sdClient
   .get('status')
   .then(response => {
-    console.log('systemStatus::', response.systemStatus);
+    console.log('systemStatus:', response.systemStatus);
 
     //look through the lineups
     response.lineups.forEach(async lineup => {
