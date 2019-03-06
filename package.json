@@ -1,0 +1,33 @@
+{
+  "name": "node-schedulesdirect",
+  "version": "1.0.3",
+  "description": "SchedulesDirect API Client",
+  "author": {
+    "name": "Drew Gauderman",
+    "email": "drew@dpg.host",
+    "url": "https://github.com/maddog986"
+  },
+  "homepage": "https://github.com/maddog986/node-schedulesdirect",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/maddog986/node-schedulesdirect.git"
+  },
+  "bugs": {
+    "url": "https://github.com/maddog986/node-schedulesdirect/issues"
+  },
+  "license": "MIT",
+  "main": "./schedulesdirect.js",
+  "scripts": {
+    "start": "nodemon test/index.js localhost 8080"
+  },
+  "keywords": ["schedulesdirect"],
+  "dependencies": {
+    "request": "2.88.0"
+  },
+  "devDependencies": {
+    "nodemon": "1.18.10"
+  },
+  "directories": {
+    "example": "examples"
+  }
+}
