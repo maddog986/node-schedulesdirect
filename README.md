@@ -1,6 +1,6 @@
 # SchedulesDirect Node Module
 
-[SchedulesDirect](http://schedulesdirect.org/)'s [API](https://github.com/SchedulesDirect/JSON-Service/wiki/API-20141201) Node client.
+This is an unofficial [SchedulesDirect](http://schedulesdirect.org/)'s [API](https://github.com/SchedulesDirect/JSON-Service/wiki/API-20141201) Node client.
 
 Test live at https://codesandbox.io/s/github/maddog986/node-schedulesdirect
 
